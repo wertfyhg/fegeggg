@@ -1,5 +1,5 @@
 ﻿{
-    "name": "fegeggg",
+    "name": "loiubgu",
     "description": "v2ray websocket proxy on heroku",
     "keywords": ["v2ray vmess vless trojan shadowsocks socks tor"],
     "env": {
@@ -12,16 +12,16 @@
             "value": "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
         },
         "CADDYIndexPage": {
-            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/wertfyhg/fegeggg/blob/master/etc/CADDYIndexPage.md",
+            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/wertfyhg/loiubgu/blob/master/etc/CADDYIndexPage.md",
             "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/wertfyhg/fegeggg/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/wertfyhg/loiubgu/master/etc/Caddyfile"
         },
         "CONFIGV2RAY": {
             "description": "自定义网络地址读取配置运行V2RAY，不熟悉V2RAY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/wertfyhg/fegeggg/master/etc/v2ray.json"
+            "value": "https://raw.githubusercontent.com/wertfyhg/loiubgu/master/etc/v2ray.json"
         },
         "ParameterSSENCYPT": {
             "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
@@ -32,7 +32,7 @@
             "value": "https://raw.githubusercontent.com/wertfyhg/fegeggg/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/wsryuoi/v2ray",
-    "repository": "https://github.com/wsryuoi/v2ray",
+    "website": "https://github.com/wertfyhg/loiubgu",
+    "repository": "https://github.com/wertfyhg/loiubgu",
     "stack": "container"
 }
